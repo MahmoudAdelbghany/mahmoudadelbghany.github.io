@@ -1,5 +1,4 @@
 ---
-# the default layout is 'page'
 layout: default
 icon: fa fa-file
 order: 4
@@ -7,39 +6,36 @@ order: 4
 # Mahmoud Abdelghany
 <br>
 <div style="display: flex; align-items: center;">
-  <img src="https://img.icons8.com/ios-filled/16/000000/place-marker--v1.png" alt="Location Icon" style="margin-right: 8px;">
+  <i class="fas fa-map-marker-alt" style="margin-right: 10px; width: 16px;"></i>
   <strong>Location:&nbsp;</strong> Cairo, Egypt
 </div>
 
 <div style="display: flex; align-items: center;">
-  <img src="https://img.icons8.com/ios-filled/16/000000/phone.png" alt="Phone Icon" style="margin-right: 8px;">
+  <i class="fas fa-phone" style="margin-right: 10px; width: 16px;"></i>
   <strong>Phone:&nbsp;</strong> +201026567788
 </div>
 
 <div style="display: flex; align-items: center;">
-  <img src="https://img.icons8.com/ios-filled/16/000000/email.png" alt="Email Icon" style="margin-right: 8px;">
+  <i class="fas fa-envelope" style="margin-right: 10px; width: 16px;"></i>
   <strong>Email:&nbsp;</strong> <a href="mailto:mahmoud.a.rageh@gmail.com">mahmoud.a.rageh@gmail.com</a>
 </div>
 
 <div style="display: flex; align-items: center;">
-  <img src="https://img.icons8.com/ios-filled/16/000000/linkedin.png" alt="LinkedIn Icon" style="margin-right: 8px;">
+  <i class="fab fa-linkedin" style="margin-right: 10px; width: 16px;"></i>
   <strong>LinkedIn:&nbsp;</strong> <a href="https://linkedin.com/in/mahmoud-abdelghany-rageh">linkedin.com/in/mahmoud-abdelghany-rageh</a>
 </div>
 
 <div style="display: flex; align-items: center;">
-  <img src="https://img.icons8.com/ios-filled/16/000000/github.png" alt="GitHub Icon" style="margin-right: 8px;">
+  <i class="fab fa-github" style="margin-right: 10px; width: 16px;"></i>
   <strong>GitHub:&nbsp;</strong> <a href="https://github.com/MahmoudAdelbghany">github.com/MahmoudAdelbghany</a>
 </div>
 
 <div style="display: flex; align-items: center;">
-  <img src="https://img.icons8.com/ios-filled/16/000000/domain.png" alt="Website Icon" style="margin-right: 8px;">
+  <i class="fas fa-globe" style="margin-right: 10px; width: 16px;"></i>
   <strong>Website:&nbsp;</strong> <a href="https://mahmoudadelbghany.github.io">mahmoudadelbghany.github.io</a>
 </div>
 
-
-
 ---
-
 ## Education
 
 ###  Suez Canal University  
@@ -118,17 +114,15 @@ _Ismailia, Egypt | Jan. 2024 – Present_
 ### Operating Systems
 - Linux (Intermediate)
 
-<!-- Add this to your resume.md -->
 <a href="/assets/Mahmoud_Abdelghany_Resume.pdf" download class="download-pdf-btn">
   Download PDF Version
 </a>
 
 <style>
-  /* Download button styling */
   .download-pdf-btn {
     position: fixed;
-    bottom: 0px; /* Positioned 60px above the default "Back to Top" button */
-    right: 35px; /* Matches Chirpy's default "Back to Top" button right spacing */
+    bottom: 0px;
+    right: 35px;
     padding: 12px 24px;
     background-color: #007bff;
     color: white !important;
@@ -143,6 +137,9 @@ _Ismailia, Egypt | Jan. 2024 – Present_
     background-color: #004494;
   }
 
-  /* Ensure default "Back to Top" button stays untouched */
-
+  /* Dark mode icon color */
+  [data-theme="dark"] .fas,
+  [data-theme="dark"] .fab {
+    color: inherit !important;
+  }
 </style>
